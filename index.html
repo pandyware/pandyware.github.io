@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,38 +9,94 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="./src/css/pandy.css">
+
     <title>Welcome to PandyWare!</title>
-  </head>
-  <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-    <a class="navbar-brand" href="#">
-    <img src="./img/pandyware_icon.png" width="30" height="30" class="d-inline-block align-top" alt="">
-    Pandyware
-  </a>
-      <a class="nav-item nav-link" href="#nosotros">Nosotros</a>
-      <a class="nav-item nav-link" href="#productos">Productos</a>
-      <a class="nav-item nav-link" href="contacto">Contacto</a>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <img src="./img/pandyware_icon.png" class="pandy-icon rounded-circle">
+            <a class="navbar-brand" href="#">PandyWare</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#us">Nosotros<span class="sr-only">(current)</span>
+</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">		Proyectos
+</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="cont">
+        <div class="row">
+            <div class="col">
+                <div id="us">
+                    <h3 class="border-bottom border-dark">
+                        Nosotros
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="projects">
+                    <h3 class="border-bottom border-dark">
+                        Proyectos
+                    </h3>
+                    <div class="row">  	
+                    	<div class="col">
+                    	<h5>Bookify API</h5>		
+                    		Es una api para consulta de libros.
+                    	</div>
+                    </div>
+
+                    <div class="row">  	
+                    	<div class="col">
+                    	<h5>Bookify Web Client</h5>		
+                    		Es un cliente web que consume con Bookify API.
+                    	</div>
+                    </div>
+
+                    <div class="row">  	
+                    	<div class="col">
+                    	<h5>Bookify Android Client</h5>	
+                    		Es un cliente para Android que que consume Bookify API.
+                    	</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div id="contact">
+                    <h3 class="border-bottom border-dark">
+                        Contacto
+                    </h3>
+                    <p><strong>Correo: </strong> pandy.ware@protonmail.com</p>
+                    <p><strong>Sitio Web: </strong> pandyware.github.io</p>
+                </div>
+            </div>
+        </div>
+
     </div>
-  </div>
-</nav>
-	<div id="nosotros">
-		Panndyware es un proyecto que apenas comienza, busca posicionarse como una 
-		empresa de desarrollo de software.
-	</div>
-
-	<div id="productos">
-		Actualemente estamos por comenzar el proyecto <strong>Bookify</strong>
-	</div>
-
-	<div id="contacto">
-		
-	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
